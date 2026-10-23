@@ -1,0 +1,50 @@
+package com.mycompany.student;  
+Student student1 = new Student();
+                                                                                                                  اول محاضره LAP1
+        student1.setName("zaina");
+        student1.setTest1(66.9);
+        student1.setTest2(44.7);
+
+        double average = (student1.getTest1() + student1.getTest2()) / 2;                                                        كلاس المعلومات 
+
+        System.out.println("student name: " + student1.getName());
+        System.out.println("test1: " + student1.getTest1());
+        System.out.println("test2: " + student1.getTest2());
+        System.out.println("average: " + average);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------
+public class zaina {
+
+    private String name;
+    private double test1;
+    private double test2;
+                                                                                                                             ثاني كلاس 
+    public void setName(String name) {
+        this.name = name;                               
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setTest1(double test1) {
+        this.test1 = test1;
+    }
+
+    public double getTest1() {
+        return test1;
+    }
+
+    public void setTest2(double test2) {
+        this.test2 = test2;
+    }
+
+    public double getTest2() {
+        return test2;
+    }
+
+    public double average() {
+        return (test1 + test2) / 2.0;
+    }
+}
